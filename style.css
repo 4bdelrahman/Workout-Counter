@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    margin: 30px;
+    background-color: #222222;
+}
+.title-1 {
+    font-size: 50px;
+}
+.title-2 {
+    font-size: 40px;
+    margin: 50px;
+}
+#gym-counter-div {
+    text-align: center;
+    margin-top: 100px;
+    color: #ffffff;
+
+}
+.google-btn {
+    background-color:  #dfe1df;
+    color: #222222;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 15px 20px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    line-height: 25px;
+}
+#de-in-crement-btn-div button {
+    width: 60px;
+}
+#de-in-crement-btn-div {
+    margin: 30px 0px;
+}
+#custom-edit-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#number-input-el {
+    font-size: 20px;
+    text-align: center;
+    padding: 13px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#number-input-el::placeholder {
+    font-size: 15px;
+    font-style: italic;
+}
