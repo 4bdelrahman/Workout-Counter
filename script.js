@@ -44,6 +44,7 @@ addInputBtn.addEventListener("click" , function () {
     remove(referenceInDB)
     push (referenceInDB , numberOfWorkouts)
     render()
+    numberInputEl.value = ""
 })
 
 
@@ -51,4 +52,5 @@ addInputBtn.addEventListener("click" , function () {
 
 function render() {
     workoutsEl.innerHTML = `<strong>${numberOfWorkouts}</strong> Workouts`
+
 }
