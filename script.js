@@ -54,3 +54,4 @@ function render() {
     workoutsEl.innerHTML = `<strong>${numberOfWorkouts}</strong> Workouts`
 
 }
+
