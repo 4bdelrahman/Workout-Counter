@@ -46,9 +46,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100px
     
 }
 #number-input-el::placeholder {
     font-size: 15px;
     font-style: italic;
+
 }
