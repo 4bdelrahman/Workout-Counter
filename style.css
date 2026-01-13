@@ -46,7 +46,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px
+    width: 80%;
+    max-width: 400px;
     
 }
 #number-input-el::placeholder {
@@ -54,3 +55,4 @@ body {
     font-style: italic;
 
 }
+
